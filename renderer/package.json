@@ -1,0 +1,13 @@
+{
+  "name": "@app/renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./html/index.html",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT"
+}

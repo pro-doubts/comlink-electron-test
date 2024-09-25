@@ -1,0 +1,19 @@
+{
+  "name": "@app/main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "type": "commonjs",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typed-emitter": ""
+  },
+  "dependencies": {
+    "electron": "^21.2.0"
+  }
+}
